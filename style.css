@@ -1,0 +1,56 @@
+/* Copyright (C) Wasym A. Alonso. All Rights Reserved. */
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #dcdcdc;
+  background-color: #181818;
+}
+
+body {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+h1,h2,h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+blockquote {
+  background-color: #000;
+  border-left: 3px solid #444;
+  margin: 1rem -1rem 1rem calc(-1rem - 3px);
+  padding: 1rem;
+}
+
+ul {
+  margin-left: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0;
+}
+
+li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  position: relative;
+  color: #ffdd33;
+}
+
+pre {
+  background-color: #222;
+  margin: 0 -1rem;
+  padding: 1rem;
+  overflow-x: auto;
+}
