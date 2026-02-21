@@ -4,14 +4,24 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../style.css" />
     <link rel="icon" type="image/png" href="../favicon.png" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../script.js" defer></script>
+    <script src="https://js.stripe.com/v3/pricing-table.js" async></script>
     <title>Carbon</title>
   </head>
   <body>
     <article>
       <h1>Carbon</h1>
+      <sk-link href="..">Go back</sk-link>
+      <sk-link href="https://github.com/sparky-game/carbon">GitHub Repository</sk-link>
       <p>(...)</p>
+      <h2>Choose your license</h2>
+      <p>Select the tier that fits your annual revenue.</p>
+      <stripe-pricing-table
+        pricing-table-id="prctbl_1SuNjsPkECFWr3SmNstJ34ro"
+        publishable-key="pk_live_51StIkkPkECFWr3SmKJ5CBt2UMg0qbrmkqCvw8iUZ0nuZQOngGZVsSp7l8OMMdnwKVrH4GOHDZtx5kSlVTycdx9tg00xUMmQk8E">
+      </stripe-pricing-table>
     </article>
     <small>Copyright (C) Wasym A. Alonso. All Rights Reserved.</small>
   </body>
